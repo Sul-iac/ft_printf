@@ -6,13 +6,11 @@
 /*   By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:14:36 by qbarron           #+#    #+#             */
-/*   Updated: 2023/11/01 14:14:36 by qbarron          ###   ########.fr       */
+/*   Updated: 2023/12/29 10:48:37 by qbarron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdarg.h>
-#include <unistd.h>
 
 int	ft_format_name(va_list args, const char *format)
 {

@@ -15,7 +15,7 @@ NAME = libftprintf.a
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 INC_PATH = .
-SRC_PATH = .
+SRC_PATH = src
 OBJ_PATH = obj
 
 SRC_FILES = ft_printf.c ft_format.c ft_print_ptr.c  ft_print_hexa.c ft_itoa.c

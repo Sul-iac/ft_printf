@@ -6,13 +6,11 @@
 /*   By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 19:09:05 by qbarron           #+#    #+#             */
-/*   Updated: 2023/11/12 19:09:05 by qbarron          ###   ########.fr       */
+/*   Updated: 2023/12/29 10:48:49 by qbarron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include "libft.h"
-#include <unistd.h>
 
 void	ft_putstr(char *str)
 {

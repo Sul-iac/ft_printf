@@ -6,12 +6,11 @@
 /*   By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 13:59:04 by qbarron           #+#    #+#             */
-/*   Updated: 2023/12/29 09:36:05 by qbarron          ###   ########.fr       */
+/*   Updated: 2023/12/29 10:48:35 by qbarron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stddef.h>
 
 void	ft_putchar(char c);
 
