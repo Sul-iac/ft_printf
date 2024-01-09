@@ -6,26 +6,11 @@
 /*   By: qbarron <qbarron@student.42perpignan.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 18:37:29 by qbarron           #+#    #+#             */
-/*   Updated: 2023/12/29 10:48:40 by qbarron          ###   ########.fr       */
+/*   Updated: 2024/01/09 15:17:59 by qbarron          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-size_t	print_digits_hexa(unsigned int nb)
-{
-	size_t	digits;
-
-	digits = 0;
-	if (nb == 0)
-		return (1);
-	while (nb != 0)
-	{
-		digits += 1;
-		nb /= 16;
-	}
-	return (digits);
-}
 
 int	print_hex(unsigned int nb, bool majuscules)
 {
